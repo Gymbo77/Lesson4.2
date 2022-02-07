@@ -1,0 +1,124 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+@font-face {
+	font-family: "FFGoodPro";
+	src: url("../fonts/FFGoodPro-Medium.woff2") format("woff2"), url("../fonts/FFGoodPro.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "FactorAMedium";
+	src: url("../fonts/FactorAMedium-Regular.woff2") format("woff2"), url("../fonts/FactorAMedium.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Rowdies", sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.title {
+	color: green;
+	font-size: 90px;
+	font-family: "Rowdies";
+	font-style: oblique;
+}
+
+.text {
+	color: #191d1dce;
+	text-align: justify;
+	text-indent: 150px;
+}
+
+.span {
+	text-transform: uppercase;
+	text-decoration: line-through;
+	line-height: 50px;
+	word-spacing: 75px;
+}
+.style {
+	text-align: right;
+	color: blueviolet;
+	font-style: normal;
+	font-family: "FactorAMedium";
+	text-shadow: 15px 15px 15px;
+	white-space: normal;
+}
+
+.block {
+	text-align: center;
+}
+
+.spisok {
+	font-family: "FFGoodPro";
+	font-style: italic;
+	text-align: center;
+	color: cadetblue;
+	text-decoration: overline;
+}
+
+.title2 {
+	font-size: 55px;
+	font-family: "Lato";
+	font-weight: 700;
+}
+
+.p1 {
+	font-family: "Lato";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.p2 {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #424551;
+}
+
+.p3 {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	color: #1e212c;
+	text-align: left;
+}
+.p4 {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #424551;
+}
+
+.list {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 25.6px;
+	color: #424551;
+}
+
+.p5 {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #424551;
+}
